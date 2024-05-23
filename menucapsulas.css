@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:wght@300;400;700&family=Righteous&display=swap');
+
+/* Estilo Barra de Navegación */
+#nombreBarra {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#botonIniciar {
+    color: white;
+}
+
+#botonRegistrar {
+    color: white;
+}
+
+#barraDeNavegacion {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: sticky;
+    top: 0px;
+}
+
+/* Título */
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-center {
+    font-family: "Righteous", sans-serif;
+    font-style: normal;
+    font-size: 100px;
+    color: #3B2D2D;
+}
+/* propiedades tarjetas */
+.card {
+    width: 30%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.circle-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin: 0 auto 20px; 
+}
+
+.circle-img img {
+    width: 100%;
+    height: auto;
+    display: block; 
+}
+
+.card1 {
+    background-color: #FF3F42; 
+}
+
+.card2 {
+    background-color: #FFC842; 
+}
+
+.card3 {
+    background-color: #457692; 
+}
+
+.btn-success {
+    border-radius: 8px;
+    background-color: #79BF67;
+}
+
+.btn-light {
+    font-size: 25pt;
+    margin-right: 60px; 
+    margin-bottom: 30px; 
+    margin-left: 60px; 
+}
+
+
+/* fondo */
+body{
+    background-color: bisque;
+    background-image: url("https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZJpfYwV1QcvL7kC_M1QRc0uTwWnCqw5b2wCTX11KkjPIhfwAtSsPkH3m5nss5MdlQK9gAbat050Sjx3yP8MIWzhYBaP8fKsDc=w1920-h919-rw-v1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
