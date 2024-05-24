@@ -33,10 +33,10 @@
               <a class="nav-link active" aria-current="page" href="inicio.html">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">¿Qué es Biomap?</a>
+              <a class="nav-link" href="que-es-biomap.css">¿Qué es Biomap?</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sobre Nosotras</a>
+              <a class="nav-link" href="Quienes_somos.html">Sobre Nosotras</a>
             </li>
             <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -59,7 +59,7 @@
     </nav>
   </div>
   <!-- Termina barra de navegacion -->
-  <div>
+  <div class="container">
     <div class="row m-5 p-3">
     </div>
     <div class="row">
@@ -90,17 +90,35 @@
   <div class="container-fluid">
     <div id="cuadriculaImagenes" class="row text-center mt-5">
       <div class="col-4">
-        <img id="zorroCulpeo" class="fotosInicio"
+        <div class="container">
+        <img class="fotosInicio"
           src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihYZuIK6NXi4MLf53jr5fCRNxWVo_FErnC-ibFCVLmpa-3ix8bvdSAlp2H7fK_54DxGiMW0t418GHSCYkHJ3-0zbG_LCp9ljy0s=w1920-h919-rw-v1">
+          <div class="middle">
+            <div class="text">Zorro Culpeo</div>
+            <div class="textoFoto">¡Si quieres saber más sobre el Zorro Culpeo, regístrate!</div>
+          </div>
+        </div>
       </div>
       <div class="col-4">
+        <div class="container">
         <img id="picaflorArica" class="fotosInicio"
           src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihaMFwHB6oHolbnHQh_CkPmvcMbExYTCx69DwCmKSfK--fiT0xsGK72FrN7rzZDDWKEAcf8_RDYwN5zVBE2jODZCnLNMCPeQoe8=w1920-h919">
+          <div class="middle">
+            <div class="text">Picaflor de Arica</div>
+            <div class="textoFoto">¡Si quieres saber más sobre el Picaflor de Arica, regístrate!</div>
+          </div>
       </div>
+    </div>
       <div class="col-4">
+        <div class="container">
         <img id="chungungo" class="fotosInicio"
           src="https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihY6DnrWC3JpclWYPAvvZbvCn6_03xeCFha-Z887bE21IO69l_d8HQLvpSVq1hsQVq2GXhrVzjFxc2G7yaLxrhAAGpm1Z_8q9pE=w1920-h919-rw-v1">
+          <div class="middle">
+            <div class="text">Chungungo</div>
+            <div class="textoFoto">¡Si quieres saber más sobre el Chungungo, regístrate!</div>
+          </div>
       </div>
+    </div>
     </div>
   </div>
   <div class="row m-5">
@@ -130,6 +148,13 @@
   <div class="row m-5">
   </div>
   </div>
+  </div>
+  <div id="button">
+    <button onclick="paArriba()" id="myBtn" title="Subir">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-circle" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+      </svg>
+  </button>
   </div>
 <!-- Empieza Footer -->
   <footer id="footer" class="bg-body-tertiary text-start">
@@ -180,13 +205,13 @@
   
           <ul class="list-unstyled mb-0 listasFooter">
             <li>
-              <a href="#!" class="text-body">Preguntas frecuentes</a>
+              <a href="preguntas-frecuentes.html" class="text-body">Preguntas frecuentes</a>
             </li>
             <li>
               <a href="#!" class="text-body">Términos de uso</a>
             </li>
             <li>
-              <a href="#!" class="text-body">Política de privacidad</a>
+              <a href="politica-de-privacidad.html" class="text-body">Política de privacidad</a>
             </li>
             <li>
               <a href="#!" class="text-body">Política de cookies</a>
@@ -216,7 +241,7 @@
     <!-- Copyright -->
   </footer>
 </div>
-
+  <script src="inicio.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
