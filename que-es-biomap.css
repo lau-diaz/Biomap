@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Poppins:wght@300;400;700&family=Righteous&display=swap');
+
+#nombreBarra {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#botonIniciar {
+    color: white;
+}
+
+#botonRegistrar {
+    color: white;
+}
+
+#barraDeNavegacion {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: sticky;
+    top: 0px;
+}
+
+
+
+body {
+    background-color: white;
+    background-image: url("https://lh3.googleusercontent.com/u/0/drive-viewer/AKGpihZJpfYwV1QcvL7kC_M1QRc0uTwWnCqw5b2wCTX11KkjPIhfwAtSsPkH3m5nss5MdlQK9gAbat050Sjx3yP8MIWzhYBaP8fKsDc=w1920-h919-rw-v1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.texto {
+    color:#3B2D2D;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#zorro {
+    width: 600px;
+}
+
+
+/* Estilo Footer */
+h5 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#imagenFooter {
+    width: 140px;
+}
+
+#footer {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.listasFooter{
+    text-decoration: none;
+}
